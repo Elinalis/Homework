@@ -1,0 +1,17 @@
+body {
+    font-size: 20px ;
+    color : #913D88 ;
+	border : solid 1p ;
+}
+
+p {
+    font-size: 14px;
+    border: initial;
+}
+
+.first{
+    color: black;
+}
+.second {
+    color: inherit;
+} 

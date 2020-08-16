@@ -1,0 +1,45 @@
+* {
+    margin: unset;
+    padding: unset;
+    border: unset;
+   }
+
+body {
+    font-size: 20px;
+    border: 1px solid red
+}
+
+.inherit {
+    border:inherit 
+}
+
+h1 {
+    text-align: center;
+    color: blue
+}
+
+#pagewrapper {
+      color: green;
+      font-size: 30px
+}
+
+.content {
+    color: darkblue;
+    font-size: 15px
+}
+
+.secondary {
+    color:darkolivegreen;
+}
+
+#child2 {
+    color: red;
+}
+
+.child1{
+    color: darkslateblue!important;
+}
+
+:not(p) {
+    color: yellowgreen;
+}
