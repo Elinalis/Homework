@@ -1,38 +1,44 @@
 /** Не посещалась*/
 a:link {
-    color: blue;
-    text-decoration: none;
-  }
+  color: blue;
+  text-decoration: none;
+}
 
 /** Посещена */
-  a:visited {
-    color: purple;
-  }
+a:visited {
+  color: purple;
+}
 
 /** Наведение */
-  a:hover {
-    color: aqua;
-    text-decoration: underline;
-  }
+a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
 
 /** Активна */
-  a:active {
-    color: red;
-  }
+a:active {
+  color: red;
+}
 
 a:visited:hover {
-    color: orange;
+  color: orange;
 }
+
 a:visited:active {
-    color: red;
-} */
+  color: red;
+}
 
-.button:hover,                 /* Change this */
-.button:active {             /* Change this */
-  display: flex;             /* Add this */
-  text-decoration: dotted;      /* Add this */
+*.button:hover,
+/* Change this */
+.button:active {
+  /* Change this */
+  display: flex;
+  /* Add this */
+  text-decoration: dotted;
+  /* Add this */
 
-  color: #FFF;                /* The rest is the same */
+  color: #FFF;
+  /* The rest is the same */
   background-color: #5995DA;
   font-weight: bold;
   padding: 20px;
@@ -47,27 +53,28 @@ a:visited:active {
 .button:hover,
 .button:visited:hover {
   color: #FFF;
-  background-color: lightblue; 
+  background-color: lightblue;
 }
 
 .button:active,
 .button:visited:active {
   color: #FFF;
-  background-color: blue; 
+  background-color: blue;
 }
 
 
 .articles p:last-of-type {
-    color:red;
+  color: red;
 }
 
 .articles .description:last-child {
-    color: green;
-} 
+  color: green;
+}
 
 .article::first-line {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
+
 .article::before {
   content: "¶ "
 }
@@ -79,5 +86,3 @@ a:visited:active {
 .articles p:nth-child(2) {
   color: #5995DA;
 }
-
-
